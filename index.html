@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+         <link rel="stylesheet" href="cssstore/index.css">
+       <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+       <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+            <title> Wedding dresses store</title>
+            
+            
+    </head>
+    <body> 
+         <script src="./scriptt/script.js"></script>
+         
+       <!-- Header section -->
+        <header id="header">
+            <a href="" class="logo">VB</a>
+            <ul class="nav">
+                <li><a href="#banner"><ion-icon name="home-outline" ></ion-icon></a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#dresses">dresses</a></li>
+                <li><a href="#contact">contact us</a></li>
+            </ul> 
+            <ul class="util">
+                <li><a href="#"><ion-icon name="search-outline"></ion-icon></a></li>
+                <li><a href="#newsletter"><ion-icon name="person-circle-outline"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="heart-outline"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="bag-handle-outline"></ion-icon></a>
+                    <span class="number">0</span>
+                    </li>
+            </ul>
+
+        </header>
+        <!-- Main Banner Section -->
+        <div id="banner" class="banner ">
+        <!-- Left Part-->
+            <div class="women" >
+                <img src="./images/5313f2872a7182315e78813451110e9f.jpg" alt="">
+                <a href="#" class="switch-btn" onclick="switchBanner('left')" >Vestito Bianco</a>
+                <div class="content">
+                    <h1> inspiration</h1>
+                    <p>
+                        Your wedding inspiration starts here! Browse our library of beautiful real brides,
+                         as well as other useful articles as you begin your wedding planning journey.
+                        </p>
+                    <a href="#dresses">Shop around <ion-icon name="cart-outline"></ion-icon> </a>
+                </div>
+            </div>
+             <!-- middle Part-->
+            <div class="men">
+                <img src="./images/Вечная красота_ армянская свадьба в новой эстетике.jpeg">
+                <a href="#" class="switch-btn" onclick="switchBanner('middle')" >   We make</a>
+                <div class="content">
+                    <h1>Be more Elegant</h1>
+                    <p>
+                        Our designs blend rich fabrics like satin and lace with decadent beading and detailing, in addition to the comfort of our patented Allure construction.
+                         The result is the Allure Bridals brand family, with collections that embody the unique style of our brides.
+                    </p>
+                    <a href="#dresses">Shop around <ion-icon name="cart-outline"></ion-icon> </a>
+                </div>
+            </div>
+             <!-- right Part-->
+            <div class="special">
+                <img src="./images/Maria + Frixos _ Dry Flowers Wedding _ Aelia Wellness Retreat _ Cyprus — Karina Leonenko Photography _ Cyprus Wedding + Elopement Photographer.jpeg" alt="">
+                <a href="#" class="switch-btn" onclick="switchBanner('right')" >Every moment special</a>
+                <div class="content">
+                <h1>Brides's Fashion</h1>
+                <p>
+                    Vestito Bianco pursues excellence in design and irreproachable craftsmanship to create a gown worthy of a bride’s most treasured moments.
+                         We believe brides should feel nothing less than gorgeous on their wedding day.
+                </p>
+                <a href="#">Shop around <ion-icon name="cart-outline"></ion-icon> </a>
+             </div>
+            </div>
+                 <a href="#" class="reset" onclick="resetBanner();"><ion-icon name="power-outline"></ion-icon></a>
+            </div>
+        </div>
+        <!--main section-->
+        <section class="call-up">
+            <div class="call-up-box">
+                <ion-icon name="send-outline"></ion-icon>
+                <div>
+                    <h4>
+                        free shipping
+                    </h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa sit, eos totam deserunt maiores</p>
+                </div>
+            </div>
+            <div class="call-up-box">
+                <ion-icon name="card-outline"></ion-icon>
+                <div>
+                    <h4>
+                        Security Payment
+                    </h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa sit, eos totam deserunt maiores</p>
+                </div>
+            </div>
+            <div class="call-up-box">
+                <ion-icon name="cash-outline"></ion-icon>
+                <div>
+                    <h4>
+                       More Services
+                    </h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa sit, eos totam deserunt maiores</p>
+                </div>
+            </div>
+
+        </section>
+        <!--About Section-->
+        <section id="about" class="about">
+            <div class="left">
+                <div class="promotion about-box">
+                    <img src="./images/Stunning Sleeve Styles You'll Absolutely Adore - Modern Wedding.jpeg">
+                    <div class="descreption">
+                        <h4>wedding dresses</h4>
+                        <p>
+                            You’ve found the perfect partner and you have a sparkly engagement ring on your finger,
+                             and now all you need is the wedding dress of your dreams.
+                             you’ll find your perfect match when you browse our vast selection of wedding dresses. 
+                        </p>
+                        <a href="#product2">Shop now<ion-icon name="arrow-forward-outline"></ion-icon></a>
+                    </div>
+                </div>
+                <div class="style about-box" >
+                    <img src="./images/Behind the scenes of Anna Heinrich and Tim Robards Italian wedding.jpeg">
+                    <div class="descreption">
+                        <h4>Mother of the bride dresses</h4>
+                        <p>
+                            The vestito bianco displays a collection of dresses for the mother of the bride or groom from a variety of designers and in a variety of styles.  
+                        </p>
+                        <a href="#product3">Shop now<ion-icon name="arrow-forward-outline"></ion-icon></a>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="collection about-box">
+                    <img src="./images/The Coronado STL Wedding _ allyson & connor - abbyrose-photo_com.jpeg"> 
+                    <div class="descreption">
+                        <h4>Bridesmaid dresses</h4>
+                        <p>
+                            Help your bridal party look their best by finding the perfect bridesmaid dresses using the bridesmaid dress gallery on The vestito bianco. 
+                        </p>
+                        <a href="#product4">Shop now<ion-icon name="arrow-forward-outline"></ion-icon></a>
+                    </div>
+                </div>
+                <div class="discovery about-box">
+                    <img src="./images/Beautiful bridal jewellery you'll want to wear - TANIA MARAS _ bridal headpieces + wedding veils.jpeg">
+                    <div class="descreption">
+                        <h4>hair pins,clips & combs</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        </p>
+                        <a href="#product5">Shop now<ion-icon name="arrow-forward-outline"></ion-icon></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+                                        <!--prodyct section 1-->
+        <section id="dresses">
+        <section id="product2" class="section-p2">
+            <h2>Bride's dresses</h2> 
+            
+            <dic class="pro-container1">
+                <div class="pro1">
+                    <img src="images/32e51b0db641b157acac09cc9d814cad.jpg" alt="">
+                    <div class="des1">
+                        <span>MADELYN</span>
+                        
+                        <ul class="product1-rating">
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                        </ul>
+                            <h4>$12000</h4>
+                            <a href="" class="add-to-bag1">
+                                <ion-icon name="bag-add-outline"></ion-icon>
+                            </a>
+                    </div>
+                   
+                </div>
+            </div>
+
+            <dic class="pro-container1">
+                <div class="pro1">
+                    <img src="images/5ed1278b9c86f720d711ee2dcffabec6.jpg" alt="">
+                    <div class="des1">
+                        <span>HELEN</span>
+                        
+                        <ul class="product1-rating">
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                        </ul>
+                            <h4>$10000</h4>
+                            <a href="" class="add-to-bag1">
+                                <ion-icon name="bag-add-outline"></ion-icon>
+                            </a>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="pro-container1">
+                <div class="pro1">
+                    <img src="images/7f6de1a2f36cf24839e34e3189a31d2e.jpg" alt="">
+                    <div class="des1">
+                        <span>MARILYN</span>
+                        
+                        <ul class="product1-rating">
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                        </ul>
+                            <h4>$11000</h4>
+                            <a href="" class="add-to-bag1">
+                                <ion-icon name="bag-add-outline"></ion-icon>
+                            </a>
+                    </div>
+                  
+                </div>
+            </div>
+            <div class="pro-container1">
+                <div class="pro1">
+                    <img src="images/Milla Nova 2022 Wedding Dresses — “Royal” Bridal Collection _ Wedding Inspirasi.jpeg" alt="">
+                    <div class="des1">
+                        <span>SEPHORA</span>
+                        
+                        <ul class="product1-rating">
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                        </ul>
+                            <h4>$15000</h4>
+                            <a href="" class="add-to-bag1">
+                                <ion-icon name="bag-add-outline"></ion-icon>
+                            </a>
+                    </div>
+                  
+                </div>
+            </div>
+            <div class="pro-container1">
+                <div class="pro1">
+                    <img src="images/a3b62c437be6548d59a0ce1497c2bdfc.jpg" alt="">
+                    <div class="des1">
+                        <span>KARMA</span>
+                        
+                        <ul class="product1-rating">
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                        </ul>
+                            <h4>$12000</h4>
+                            <a href="" class="add-to-bag1">
+                                <ion-icon name="bag-add-outline"></ion-icon>
+                            </a>
+                    </div>
+                  
+                </div>
+            </div>
+        </section>
+        <!-----product 2-->
+        <section id="product3" class="section-p3">
+            <h2>Mother of the Bride</h2> 
+            
+            <dic class="pro-container2">
+                <div class="pro2">
+                    <img src="images/1b5192a2079d4b2d5fe6febc6a3493e5.jpg.webp" alt="">
+                    <div class="des2">
+                        <span>Endora Mother</span>
+                        
+                        <ul class="product2-rating">
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                        </ul>
+                            <h4>$6000</h4>
+                            <a href="" class="add-to-bag2">
+                                <ion-icon name="bag-add-outline"></ion-icon>
+                            </a>
+                    </div>
+                   
+                </div>
+            </div>
+
+            <dic class="pro-container2">
+                <div class="pro2">
+                    <img src="images/60ba55a8175e51c90e94466b32cf07b6.jpg.webp" alt="">
+                    <div class="des2">
+                        <span>Snapdragon Mother</span>
+                        
+                        <ul class="product2-rating">
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                        </ul>
+                            <h4>$5000</h4>
+                            <a href="" class="add-to-bag2">
+                                <ion-icon name="bag-add-outline"></ion-icon>
+                            </a>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <dic class="pro-container2">
+                <div class="pro2">
+                    <img src="images/b3947ae12765ac424b51741f748d5cab.jpg.webp" alt="">
+                    <div class="des2">
+                        <span>Marbella Mother</span>
+                        
+                        <ul class="product2-rating">
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                        </ul>
+                            <h4>$5500</h4>
+                            <a href="" class="add-to-bag2">
+                                <ion-icon name="bag-add-outline"></ion-icon>
+                            </a>
+                    </div>
+                  
+                </div>
+            </div>
+            <dic class="pro-container2">
+                <div class="pro2">
+                    <img src="images/edf2775fd76c3ec72b6870a5b5241e9a.jpg.webp" alt="">
+                    <div class="des2">
+                        <span>Romy Mother</span>
+                        
+                        <ul class="product2-rating">
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                        </ul>
+                            <h4>$3400</h4>
+                            <a href="" class="add-to-bag2">
+                                <ion-icon name="bag-add-outline"></ion-icon>
+                            </a>
+                    </div>
+                  
+                </div>
+            </div>
+            <dic class="pro-container2">
+                <div class="pro2">
+                    <img src="images/ff43eed6ff3d9aa3f07348738c00dea4.jpg.webp" alt="">
+                    <div class="des2">
+                        <span>Adina Mother</span>
+                        
+                        <ul class="product2-rating">
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                        </ul>
+                            <h4>$5000</h4>
+                            <a href="" class="add-to-bag2">
+                                <ion-icon name="bag-add-outline"></ion-icon>
+                            </a>
+                    </div>
+                  
+                </div>
+            </div>
+        </section>
+
+        <!-------------------------------------------------product 3---------------------------------------->
+        <section id="product4" class="section-p4">
+            <h2>Bridesmaid dresses</h2> 
+            
+            <dic class="pro-container3">
+                <div class="pro3">
+                    <img src="images/high-neck-crepe-bridesmaid-dress.png" alt="">
+                    <div class="des3">
+                        <span>Dove Grey Satin Charmeuse</span>
+                        
+                        <ul class="product3-rating">
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                        </ul>
+                            <h4>$4200</h4>
+                            <a href="" class="add-to-bag3">
+                                <ion-icon name="bag-add-outline"></ion-icon>
+                            </a>
+                    </div>
+                   
+                </div>
+            </div>
+
+            <dic class="pro-container3">
+                <div class="pro3">
+                    <img src="images/satin-charmeuse-bridesmaid-dresses.png" alt="">
+                    <div class="des3">
+                        <span>Cortland Charmeuse</span>
+                        
+                        <ul class="product3-rating">
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                        </ul>
+                            <h4>$3000</h4>
+                            <a href="" class="add-to-bag3">
+                                <ion-icon name="bag-add-outline"></ion-icon>
+                            </a>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <dic class="pro-container3">
+                <div class="pro3">
+                    <img src="images/v-neck-crepe-bridesmaid-dress.png" alt="">
+                    <div class="des3">
+                        <span>V-Neck Crepe</span>
+                        
+                        <ul class="product3-rating">
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                        </ul>
+                            <h4>$3000</h4>
+                            <a href="" class="add-to-bag3">
+                                <ion-icon name="bag-add-outline"></ion-icon>
+                            </a>
+                    </div>
+                  
+                </div>
+            </div>
+            <dic class="pro-container3">
+                <div class="pro3">
+                    <img src="images/cowl-neck-bridesmaid-dress-floral.png" alt="">
+                    <div class="des3">
+                        <span>Dahlia Cowl Neck</span>
+                        
+                        <ul class="product3-rating">
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                        </ul>
+                            <h4>$2000</h4>
+                            <a href="" class="add-to-bag3">
+                                <ion-icon name="bag-add-outline"></ion-icon>
+                            </a>
+                    </div>
+                  
+                </div>
+            </div>
+            <dic class="pro-container3">
+                <div class="pro3">
+                    <img src="images/marigold-charmeuse-bridesmaid-dress.png" alt="">
+                    <div class="des3">
+                        <span>High-Neck Crepe </span>
+                        
+                        <ul class="product3-rating">
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                        </ul>
+                            <h4>$2000</h4>
+                            <a href="" class="add-to-bag3">
+                                <ion-icon name="bag-add-outline"></ion-icon>
+                            </a>
+                    </div>
+                  
+                </div>
+            </div>
+        </section>
+        <!-----------------------product4------------->
+        <section id="product5" class="section-p5">
+            <h2>Bridesmaid dresses</h2> 
+            
+            <dic class="pro-container4">
+                <div class="pro4">
+                    <img src="images/Long wedding hairstyle ideas you will love.jpeg" alt="">
+                    <div class="des4">
+                        <span>style:VRM109a</span>
+                        
+                        <ul class="product4-rating">
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                        </ul>
+                            <h4>$400</h4>
+                            <a href="" class="add-to-bag4">
+                                <ion-icon name="bag-add-outline"></ion-icon>
+                            </a>
+                    </div>
+                   
+                </div>
+            </div>
+
+            <dic class="pro-container4">
+                <div class="pro4">
+                    <img src="images/Classic Wedding Hairstyles_ 30+ Best Looks & Expert Tips.jpeg" alt="">
+                    <div class="des4">
+                        <span>style:VRM278w</span>
+                        
+                        <ul class="product4-rating">
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                        </ul>
+                            <h4>$350</h4>
+                            <a href="" class="add-to-bag4">
+                                <ion-icon name="bag-add-outline"></ion-icon>
+                            </a>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <dic class="pro-container4">
+                <div class="pro4">
+                    <img src="images/Into the Night _ Newly released 2018 wedding accessories collection - TANIA MARAS _ bridal headpieces + wedding veils.jpeg" alt="">
+                    <div class="des4">
+                        <span>style:VRM206e</span>
+                        
+                        <ul class="product4-rating">
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                        </ul>
+                            <h4>$300</h4>
+                            <a href="" class="add-to-bag4">
+                                <ion-icon name="bag-add-outline"></ion-icon>
+                            </a>
+                    </div>
+                  
+                </div>
+            </div>
+            <dic class="pro-container4">
+                <div class="pro4">
+                    <img src="images/The Best Disney Wedding Ideas - Modern Wedding.jpeg" alt="">
+                    <div class="des4">
+                        <span>style:VRM207V</span>
+                        
+                        <ul class="product4-rating">
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                        </ul>
+                            <h4>$200</h4>
+                            <a href="" class="add-to-bag4">
+                                <ion-icon name="bag-add-outline"></ion-icon>
+                            </a>
+                    </div>
+                  
+                </div>
+            </div>
+            <dic class="pro-container4">
+                <div class="pro4">
+                    <img src="images/MARION Delicate Floral Bridal Comb Ivory Wedding Headpiece - Etsy Australia.jpeg" alt="">
+                    <div class="des4">
+                        <span>Viktor&Rolf Mariage</span>
+                        
+                        <ul class="product4-rating">
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                            <li><ion-icon name="star-outline"></ion-icon></li>
+                        </ul>
+                            <h4>$300</h4>
+                            <a href="" class="add-to-bag4">
+                                <ion-icon name="bag-add-outline"></ion-icon>
+                            </a>
+                    </div>
+                  
+                </div>
+            </div>
+        </section>
+    </section>
+
+        <!-------signup section---------------->
+        <section id="newsletter" class="section-p2">
+            <div class="newstext">
+                <h4>sign up for vestiti bianco</h4>
+                <p>Get E-mail updates about our latese shop and <span>special offers.</span></p>
+            </div>
+            <div class="form">
+                <label id="e2" for="email"> Email</label>
+                <input id="email" name="email" type="text" placeholder="Your email address">
+                <br>
+                <label id="e2"  for="pass">Password</label>
+                <input  id="pass" name="password" type="password">
+                
+                <button id="sign" name="signup">Sign Up</button>
+            </div>
+
+        </section>
+
+        <!-------cantact section-->
+        <section class="contact" id="contact">
+        <div class="info-wrap">
+            <div class="info">
+                <ion-icon name="navigate-circle-outline"></ion-icon>
+                <h4>Location</h4>
+                <p>
+                    Saed streer<br>
+                    tanta.Egypt
+                </p>
+            </div>
+        </div>
+        <div class="info-wrap">
+            <div class="info">
+                <ion-icon name="mail-outline"></ion-icon>
+                <h4>Email</h4>
+                <p>
+                    info@gmail.com<br>
+                    contact@example.com
+                </p>
+            </div>
+        </div>
+        <div class="info-wrap">
+            <div class="info">
+                <ion-icon name="call-outline"></ion-icon>
+                <h4>Call</h4>
+                <p>
+                    4535635443<br>
+                    7565545667
+                </p>
+            </div>
+        </div>
+       </section>
+       <!----back to top button------>
+       <a href="#" class="back-to-top active" onclick="scrollToTop();">
+        <ion-icon name="arrow-up-outline"></ion-icon>
+       </a>
+        
+    </body>
+</html>
